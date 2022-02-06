@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CD4D30D27AFC1D300594DAE /* DroneShopUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD4D30C27AFC1D300594DAE /* DroneShopUIApp.swift */; };
+		5CD4D30F27AFC1D300594DAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD4D30E27AFC1D300594DAE /* ContentView.swift */; };
+		5CD4D31127AFC1D400594DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CD4D31027AFC1D400594DAE /* Assets.xcassets */; };
+		5CD4D31427AFC1D400594DAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CD4D31327AFC1D400594DAE /* Preview Assets.xcassets */; };
+		5CD4D31B27AFC1F100594DAE /* drone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5CD4D31A27AFC1F100594DAE /* drone.usdz */; };
+		5CD4D31E27AFC2A000594DAE /* DroneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD4D31D27AFC2A000594DAE /* DroneView.swift */; };
+		5CD4D32127AFDB2C00594DAE /* drone.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CD4D32027AFDB2C00594DAE /* drone.json */; };
+		5CD4D32427AFDB3F00594DAE /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 5CD4D32327AFDB3F00594DAE /* Lottie */; };
+		5CD4D32627AFDB5200594DAE /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD4D32527AFDB5200594DAE /* LottieView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CD4D30927AFC1D300594DAE /* DroneShopUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DroneShopUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD4D30C27AFC1D300594DAE /* DroneShopUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneShopUIApp.swift; sourceTree = "<group>"; };
+		5CD4D30E27AFC1D300594DAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5CD4D31027AFC1D400594DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CD4D31327AFC1D400594DAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5CD4D31A27AFC1F100594DAE /* drone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = drone.usdz; sourceTree = "<group>"; };
+		5CD4D31D27AFC2A000594DAE /* DroneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneView.swift; sourceTree = "<group>"; };
+		5CD4D32027AFDB2C00594DAE /* drone.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drone.json; sourceTree = "<group>"; };
+		5CD4D32527AFDB5200594DAE /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CD4D30627AFC1D300594DAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD4D32427AFDB3F00594DAE /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CD4D30027AFC1D300594DAE = {
+			isa = PBXGroup;
+			children = (
+				5CD4D30B27AFC1D300594DAE /* DroneShopUI */,
+				5CD4D30A27AFC1D300594DAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CD4D30A27AFC1D300594DAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CD4D30927AFC1D300594DAE /* DroneShopUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CD4D30B27AFC1D300594DAE /* DroneShopUI */ = {
+			isa = PBXGroup;
+			children = (
+				5CD4D31F27AFDB2C00594DAE /* Lottie */,
+				5CD4D31C27AFC28300594DAE /* View */,
+				5CD4D30C27AFC1D300594DAE /* DroneShopUIApp.swift */,
+				5CD4D30E27AFC1D300594DAE /* ContentView.swift */,
+				5CD4D31A27AFC1F100594DAE /* drone.usdz */,
+				5CD4D31027AFC1D400594DAE /* Assets.xcassets */,
+				5CD4D31227AFC1D400594DAE /* Preview Content */,
+			);
+			path = DroneShopUI;
+			sourceTree = "<group>";
+		};
+		5CD4D31227AFC1D400594DAE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5CD4D31327AFC1D400594DAE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5CD4D31C27AFC28300594DAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CD4D31D27AFC2A000594DAE /* DroneView.swift */,
+				5CD4D32527AFDB5200594DAE /* LottieView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CD4D31F27AFDB2C00594DAE /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				5CD4D32027AFDB2C00594DAE /* drone.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CD4D30827AFC1D300594DAE /* DroneShopUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CD4D31727AFC1D400594DAE /* Build configuration list for PBXNativeTarget "DroneShopUI" */;
+			buildPhases = (
+				5CD4D30527AFC1D300594DAE /* Sources */,
+				5CD4D30627AFC1D300594DAE /* Frameworks */,
+				5CD4D30727AFC1D300594DAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DroneShopUI;
+			packageProductDependencies = (
+				5CD4D32327AFDB3F00594DAE /* Lottie */,
+			);
+			productName = DroneShopUI;
+			productReference = 5CD4D30927AFC1D300594DAE /* DroneShopUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CD4D30127AFC1D300594DAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5CD4D30827AFC1D300594DAE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5CD4D30427AFC1D300594DAE /* Build configuration list for PBXProject "DroneShopUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CD4D30027AFC1D300594DAE;
+			packageReferences = (
+				5CD4D32227AFDB3F00594DAE /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 5CD4D30A27AFC1D300594DAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CD4D30827AFC1D300594DAE /* DroneShopUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CD4D30727AFC1D300594DAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD4D31427AFC1D400594DAE /* Preview Assets.xcassets in Resources */,
+				5CD4D31B27AFC1F100594DAE /* drone.usdz in Resources */,
+				5CD4D32127AFDB2C00594DAE /* drone.json in Resources */,
+				5CD4D31127AFC1D400594DAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CD4D30527AFC1D300594DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD4D30F27AFC1D300594DAE /* ContentView.swift in Sources */,
+				5CD4D31E27AFC2A000594DAE /* DroneView.swift in Sources */,
+				5CD4D30D27AFC1D300594DAE /* DroneShopUIApp.swift in Sources */,
+				5CD4D32627AFDB5200594DAE /* LottieView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5CD4D31527AFC1D400594DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CD4D31627AFC1D400594DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CD4D31827AFC1D400594DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DroneShopUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 56ZBSRTSDR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreyasvilaschandrabhike.DroneShopUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CD4D31927AFC1D400594DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DroneShopUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 56ZBSRTSDR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreyasvilaschandrabhike.DroneShopUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CD4D30427AFC1D300594DAE /* Build configuration list for PBXProject "DroneShopUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD4D31527AFC1D400594DAE /* Debug */,
+				5CD4D31627AFC1D400594DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD4D31727AFC1D400594DAE /* Build configuration list for PBXNativeTarget "DroneShopUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD4D31827AFC1D400594DAE /* Debug */,
+				5CD4D31927AFC1D400594DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5CD4D32227AFDB3F00594DAE /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5CD4D32327AFDB3F00594DAE /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CD4D32227AFDB3F00594DAE /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5CD4D30127AFC1D300594DAE /* Project object */;
+}
